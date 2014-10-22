@@ -1,10 +1,16 @@
-# Coding Exercise for Web Developers
+# Web Developers
 
-## Introduction
+#### Time: 1 hour
 
-This exercise is intended to help the hiring team at Altitude Labs to gauge your level of front-end coding experience (HTML, CSS & JavaScript).
+Hello!
 
-You should budget about an hour of actual coding time to complete the project. We realize that's a tight constraint, but we're trying to be respectful of your time while still allowing you to produce enough code for us to make a fair assessment of your skills. Try to ensure that the finished product represents your coding abilities, although you're not necessarily expected to fully finish in an hour. We'd much rather review high-quality but incomplete work rather than rushed, but complete work.
+Thanks for your interest in Altitude Labs.
+
+Here's a short exercise for us to get a sense of your level of web coding experience (HTML, CSS & JavaScript) and how you would go about coding in your day-to-day job. We are looking for more than just working code. We are looking for well-written code, good structure and an understanding of how to test your code. You are free to use Google and the internet and encouraged to ask questons if you get stuck or have any questions.
+
+When you're done, submit a pull request to this repository or provide a link to a public repo.
+
+#### Exercise
 
 We've created a few starter files that you should flesh out:
 
@@ -12,11 +18,9 @@ We've created a few starter files that you should flesh out:
 * [style.css](css/style.css)
 * [script.js](js/script.js)
 
-and a [PSD](AwesomeBands.psd) to use as a mockup.
-
 ## Requirements
 
-You will be building an "Awesome Bands" leaderboard, which is a list of the top five awesome band names paired with the number of times that those bands have been mentioned on Twitter.
+You will be building an "Awesome Bands" leaderboard (see diagram), which is a list of the top five awesome band names paired with the number of times that those bands have been mentioned on Twitter.
 
 For simplicity's sake, we've stubbed out an API interface and polling functionality within a library (see [lib.js](js/lib.js)). The library provides a `Poller()` class that allows you to create a poller, setting some options and providing a callback function that will be called when the poller returns data. It also has a `.start()` method that will start the poller.
 
@@ -30,6 +34,6 @@ The leaderboard that you build should satisfy these basic requirements:
 
 When you're finished, please send your work to us as a link to a public repo on GitHub.
 
-## Questions?
+#### Diagram
 
-Please use your best judgment to interpret the requirements above. However, if you're stuck with a question(s), feel free to ask us. There are no bad questions (other than, "What does JavaScript mean?").
+[PSD](AwesomeBands.psd)
