@@ -1,0 +1,62 @@
+.main {
+	background-image: url("bg.png");
+	width: 800px;
+	height: 600px;
+}
+
+.title {
+	font-family: "Times New Roman";
+	position: relative;
+	top: 130px;
+	text-align: center;
+	font-size: 70px;
+	color: #858483;
+}
+
+.leaderboard {
+	position: relative;
+	top: 150px;
+	left: 150px;
+	width: 500px;
+	height: 260px;
+	background-color: #000000;
+	opacity: 0.9;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #FFFFFF;
+}
+
+
+
+.name {
+	position: absolute;
+	color: #FFFFFF;
+	left: 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.count {
+	position: absolute;
+	color: #CE0000;
+	right: 70px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.mentionsText {
+	position: absolute;
+	color: #FFFFFF;
+	right: 0px;
+	font-size: 16px;
+}
+
+span {
+	font: arial;
+}
+
+.item {
+	position: relative; 
+	margin: 20px;
+}
