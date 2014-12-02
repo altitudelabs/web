@@ -1,0 +1,70 @@
+/* ==================== */
+/* CSS STYLES ========= */
+/* ==================== */
+
+/* helper ------------- */
+/* -------------------- */
+.hidden {
+  display: none;
+}
+
+/* tags --------------- */
+/* -------------------- */
+body {
+  background: url('../img/bg.jpg') repeat;
+}
+
+
+/* sections ---------- */
+/* ------------------- */
+#logo {
+  text-align: center;
+  margin-top: 12vh;
+}
+#logo img {
+  width: 55vw;
+}
+
+
+#leaderboard {
+  border: 5px solid rgb(208, 207 ,207);
+  border-radius: 20px;
+  background-color: rgba(29, 29, 29, 0.902);
+  width: 50%;
+  margin: 1em auto 0 auto;
+}
+.band_item {
+  padding: .7em 1em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.149);
+}
+.band_name {
+  font-size: 18px;
+  font-family: "Helvetica", "Source Sans Pro", Verdana, Sans;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.167;
+  width: 50%;
+  display: inline-block;
+  transition: opacity 1s;
+}
+.band_view {
+  font-size: 18px;
+  font-family: "Helvetica", "Source Sans Pro", Verdana, Sans;
+  color: rgb(158, 11, 15);
+  font-weight: bold;
+  line-height: 1.167;
+  display: inline-block;
+  float: right;
+  transition: opacity 1s;
+}
+.band_view:after {
+  content: "Mentions";
+  margin-left: .5em;
+  color: #fff;
+  font-family: "Helvetica Light", "Source Sans Pro", "Verdana", Sans-serif;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+/* animation --------- */
+/* ------------------- */
