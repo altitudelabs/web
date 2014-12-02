@@ -38,6 +38,9 @@ function fillboard(data) {
   $('.band_item.template .band_name').css('opacity', '0');
   $('.band_item.template .band_view').css('opacity', '0');
   for (var d in data) {
+    if (d > 5) {
+      break;
+    }
     band_ID = bandInfo.prefix+bandInfo.autoID;
     $('.band_item.template').clone().appendTo('#leaderboard');
     $('.band_item.template:eq(1)').attr('id', band_ID);
