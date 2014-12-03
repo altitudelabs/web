@@ -1,0 +1,13 @@
+/** * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) * Richard Clark (http://richclarkdesign.com) * http://cssreset.com */html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure,footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {    margin:0;    padding:0;    border:0;    outline:0;    font-size:100%;    vertical-align:baseline;    background:transparent;}body {    line-height:1;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {    display:block;}nav ul {    list-style:none;}blockquote, q {    quotes:none;}blockquote:before, blockquote:after,q:before, q:after {    content:'';    content:none;}a {    margin:0;    padding:0;    font-size:100%;    vertical-align:baseline;    background:transparent;}/* change colours to suit your needs */ins {    background-color:#ff9;    color:#000;    text-decoration:none;}/* change colours to suit your needs */mark {    background-color:#ff9;    color:#000;    font-style:italic;    font-weight:bold;}del {    text-decoration: line-through;}abbr[title], dfn[title] {    border-bottom:1px dotted;    cursor:help;}table {    border-collapse:collapse;    border-spacing:0;}/* change border colour to suit your needs */hr {    display:block;    height:1px;    border:0;    border-top:1px solid #cccccc;    margin:1em 0;    padding:0;}input, select {    vertical-align:middle;}
+/* The above CSS Reset block is copied from the site*/
+
+body { background-color:black; font-family:Tahoma; font-size:11pt; margin:auto auto; }
+#feedContainer { display:block;  margin:50px auto auto 50px; }
+#header { display:block; margin-bottom:30px; }
+#listContainer { clear:left; display:block; border:solid 1px gray; border-radius:10px; 
+    background-color:#1D1D1D; float:left; width:445px; margin-left:50px;}
+.listItem { display:none; border-bottom:solid 1px gray; color:white; padding:13px 25px; text-align:right; clear:left; float:left; width:395px; }
+.listItem:last-child { border-bottom:none; }
+.listItem .bandName { font-weight:700; font-size:12pt; float:left; }
+.listItem .numberOfMentions { }
+.listItem .numberOfMentions b { color:#861825; padding-right:5px; }
