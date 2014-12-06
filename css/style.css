@@ -1,18 +1,16 @@
 body{
 	font-family:sans-serif,Microsoft JhengHei,sans-serif;
-}
+	}
 .wrapper{
 	width:auto;
 	height:auto;
-}
-
+	}
 .content_container{
 	width:800px;
 	height:600px;
 	margin: 0px auto;
 	background-image:url(../pic/bg.png);
 	}
-	
 .ranking_container{
 	width:800px;
 	text-align:center;
@@ -25,7 +23,7 @@ body{
 	margin: 0px auto;
 	border-color:#FFFFFF;
 	border:#FFFFFF 3px solid;
-    border-radius: 25px;
+    	border-radius: 25px;
 	width:400px;
 	text-align:center;
 	background-color:rgba(58,58,58,0.85);
@@ -38,9 +36,9 @@ body{
 }
 .brand{
 	text-align:left;
-    display: inline-block;
-    width: 50%;
-    float: left;
+    	display: inline-block;
+    	width: 50%;
+    	float: left;
 	font-weight:bold;
 	}
 .mention{
@@ -48,7 +46,6 @@ body{
 	width:30%;
 	text-align:right;
 	display: inline-block;
-
 	color:#9e0b0f;
 	}
 .mention_txt{
