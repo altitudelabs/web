@@ -1,0 +1,24 @@
+html {height: 100%;}
+body {background: url('../img/bg.png') repeat; height: 100%;}
+
+.clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+   clear: both;
+  }
+}
+
+#container {boarder: 1px solid red; margin: auto; position: relative; top: 50%; width: 600px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+#list {background: url('../img/bgBox.png') no-repeat; color: #fff; height: 222px; margin: auto; padding-top: 5px; width: 450px;}
+#list .row {display: none; height: 42px; padding: 0px 20px;}
+#list .row .name {float: left; font-weight: bold; height: 100%; line-height: 42px;}
+#list .row .count {float: right; height: 100%; line-height: 40px;}
+#list .row .count .number {color: #9e0b0f; font-weight: bold;}
