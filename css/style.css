@@ -6,47 +6,51 @@ body {
   color: white;
 }
 
-.awesome-bands {
+#bands {
+  width: 100%;
+  color: white;
+  border-collapse: collapse;
+  background-color: #1f1f1f;
+  border-radius: 15px;
+  border-style: hidden; /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 5px #d0cfcf; /* this draws the table border  */
+}
+
+#bands tr {
+  line-height: 40px;
+}
+
+#header {
+  width: 100%;
+  margin: auto;
   margin-top: 100px;
+}
+
+#header img {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.awesome-bands {
+  width: 45%;
+  margin: auto;
 }
 
 .band-name {
   color: white;
   font-weight: bold;
   font-size: 1.2em;
+  padding-left: 25px;
 }
 
-table {
-  width: 100%;
-  border: 5px solid #d0cfcf;
-  border-spacing: 0.9em;
-  color: white;
-  padding: 10px;
-  background-color: #1f1f1f;
-
-  /*border-collapse: collapse;*/
-  /*border-radius: 20px;*/
-
-  -moz-border-radius:10px;
-  -webkit-border-radius:10px;
-  border-radius:10px
-
+.text-right {
+  text-align: right;
+  padding-right: 25px;
 }
 
-table tr:last-child td:first-child {
-    -moz-border-radius-bottomleft:10px;
-    -webkit-border-bottom-left-radius:10px;
-    border-bottom-left-radius:10px
-}
-
-table tr:last-child td:last-child {
-    -moz-border-radius-bottomright:10px;
-    -webkit-border-bottom-right-radius:10px;
-    border-bottom-right-radius:10px
-}
-
-tr {
-  border: 1px solid white;
+td, th {
+  border-bottom: 1px solid #404040;
 }
 
 span {

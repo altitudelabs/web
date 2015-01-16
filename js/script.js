@@ -12,7 +12,7 @@ function insertBands(data) {
   $.each(top5, function(i, item){
     item.count = item.count.toLocaleString(); //adding a thousands comma
     $('#bands').append(
-      "<tr><th class=\"band-name\">" + item.name + "</th><td class=\"text-right\"><span>" + item.count + "</span>  Mentions</td></tr>");
+      "<tr><td class=\"band-name\">" + item.name + "</td><td class=\"text-right\"><span>" + item.count + "</span>  Mentions</td></tr>");
   });
 }
 
