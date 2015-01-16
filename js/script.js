@@ -1,8 +1,8 @@
-// creating an instance of Poller
+// creating an instance of Poller with the callback insertBands
 
-bandPoller = new window.massrel.Poller({frequency: 15}, insertBands); // creating a test poller to print the data
+bandPoller = new window.massrel.Poller({frequency: 15}, insertBands);
 
-bandPoller.start();
+bandPoller.start(); //initializing
 
 //function to insert band names into DOM
 
