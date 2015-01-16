@@ -1,0 +1,56 @@
+body {
+  background-image: url(../img/background.png);
+  background-repeat: repeat;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.awesome-bands {
+  margin-top: 100px;
+}
+
+.band-name {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+table {
+  width: 100%;
+  border: 5px solid #d0cfcf;
+  border-spacing: 0.9em;
+  color: white;
+  padding: 10px;
+  background-color: #1f1f1f;
+
+  /*border-collapse: collapse;*/
+  /*border-radius: 20px;*/
+
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px
+
+}
+
+table tr:last-child td:first-child {
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    border-bottom-left-radius:10px
+}
+
+table tr:last-child td:last-child {
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-bottom-right-radius:10px
+}
+
+tr {
+  border: 1px solid white;
+}
+
+span {
+  color: #910e11;
+  font-weight: bold;
+  font-size: 1.2em;
+}
