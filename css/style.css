@@ -1,0 +1,59 @@
+body{
+    background-image: url('../pic/bg.png');
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.wrapper{
+    width:auto;
+    height:auto;
+}
+.content_container{
+    width:800px;
+    height:600px;
+    margin: 0px auto;   /*Center DIV*/
+}
+.ranking_container{
+    width:800px;
+    text-align:center;
+}
+.heading{
+    padding-top: 80px;
+}
+#ranking{
+    color:#FFFFFF;
+    margin: 0px auto;
+    border:#FFFFFF 4px solid;
+    border-radius: 25px;
+    width:450px;
+    text-align:center;
+    background-color:rgba(58,58,58,0.85);
+}
+.list_item{
+    width:445px;
+    line-height:2;
+    border-bottom:1px solid #404040;
+}
+.brand{
+    text-align:left;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    font-weight:bold;
+}
+.mention{
+    width:30%;
+    text-align:right;
+    display: inline-block;
+    color:#9e0b0f;
+}
+.mention_txt{
+    text-align:right;
+    display: inline-block;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight:normal;
+}
+.list_item_content_wrapper{
+    /*Adjust for the space inside #ranking*/
+    padding-left: 30px;
+    padding-right: 15px;
+}
