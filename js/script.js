@@ -13,6 +13,7 @@ var leaderboard =
 	{
 		if (this.leaderboard_temp == null)
 		{
+			//read from the template file
 			$.get('leaderboard_temp.html', function(template)
 			{
 				leaderboard.leaderboard_temp = template;
@@ -38,11 +39,11 @@ var leaderboard =
 		{
 			band = data[i];
 			row = template;
-			console.log(band.name);
+			//console.log(band.name);
+			//replace the parts in template with real data
 			row = row.replace("{{band-name}}", band.name);
 			row = row.replace("{{count}}", Number(band.count).toLocaleString('en'));
-			
-			//$('#'+this.leaderboard_id).append(row);
+			//fade in effect			
 			$(row).appendTo('#'+this.leaderboard_id).hide().fadeIn();
 		}
 	}
