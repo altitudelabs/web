@@ -1,0 +1,94 @@
+body
+{
+	margin: 0 0 0 0;	
+	padding: 0 0 0 0;
+	min-height: 100vh;
+}
+
+#main-wrapper {
+	background-image: url("/img/bg.png");
+	min-height: 100vh;
+}
+
+.wrapper
+{
+	float: left;
+	width: 100%;
+	
+}
+
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#header-wrapper
+{
+	margin-top: 120px;
+}
+
+#leaderboard-wrapper
+{
+	margin-top: 40px;
+	width: 449px;
+	min-height: 221px;
+	border: 4px solid #d0cfcf;
+	border-radius: 25px 25px 25px 25px;
+	background-color: #1E1E1E;
+	opacity: 0.95;
+}
+
+#leaderboard
+{
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	
+}
+
+#leaderboard .band
+{
+	display: table;
+	width: 94%;
+	list-style-position: inside;
+	padding-left: 25px;
+	color: #fff;
+	font-family: "arial";
+	font-weight: bold;
+	border-bottom: 1px solid #383838;
+	height: 40px;
+}
+
+#leaderboard .band:last-child 
+{
+	border-bottom: none;
+} 
+
+#leaderboard .band .entry
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.band .band-name
+{
+	float: left;
+	width: 60%;
+}
+
+.band .band-count
+{
+	float: left;
+	width: 40%;
+}
+
+.count-number
+{
+	float: left;
+	width: 30%;
+	text-align: right;
+	margin-right: 5px;
+	color: #911118;
+}
