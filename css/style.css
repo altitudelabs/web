@@ -1,0 +1,69 @@
+@font-face {
+	font-family: "Mason Regular";
+	src: url("../font/Mason/creed.ttf");
+}
+
+body {
+	background: #1d1d1d url(../pic/Background.jpg) top left repeat;
+}
+
+.container {
+	width: 900px;
+	height: 800px;
+	margin: 0 auto 0 auto;
+}
+
+.top {
+	height: 160px;
+}
+
+.title {
+	padding-top: 30px;
+	font-family: "Mason Regular";
+	font-size: 80px;
+	font-weight: 200;
+	text-align: center;
+	color: #afafaf;
+	text-shadow: 10px 10px 8px #000000;
+}
+
+.band-list {
+	width: 400px;
+	height: 250px;
+	margin: 0 auto 0 auto;
+	border: 3px solid white;
+	border-radius: 20px;
+	background-color: rgba(40, 40, 40, 0.7);
+}
+
+.band-list tr td {
+	height: 50px;
+	border-bottom: 1px solid #a0a0a0;
+	vertical-align: center;
+}
+
+.band-list tr:last-child td {
+	border-bottom: none;
+}
+
+.band-name {
+	color: white;
+	font-family: Helvetica;
+	font-weight: 500;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.band-mention-num {
+	font-size: 24px;
+	color: rgb(175, 0, 2);
+	padding-right: 3px;
+}
+
+.band-mentions {
+	padding-right: 20px;
+	text-align: right;
+	color: white;
+	font-size: 12px;
+	font-family: Helvetica;
+}
