@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	font-family: Helvetica, Arial;
+}
+
+body{
+	background-color: #252825;
+	background-image: url("images/bg.png");
+	background-repeat: repeat-x repeat-y;
+	text-align: center;
+}
+
+.container{
+	margin: 0 auto;
+	vertical-align: middle;
+	position: absolute;
+	top: 0px;
+}
+
+.title{
+	margin: 0 auto;
+}
+
+.title img{
+	width: 100%;
+	max-width: 594px;
+}
+
+.content{
+	width: 50%;
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+
+#leaderboard{
+	background-color: rgba(29, 29, 29, 0.8);
+	width: 100%;
+	border: 5px solid;
+	border-radius: 25px;
+	-moz-border-radius:25px; /* Old Firefox */
+	border-color: #d0cfcf;
+	color: white;
+}
+
+#leaderboard tr{
+	height: 50px;
+}
+
+#leaderboard td{
+	vertical-align: center;
+	border-bottom: 1px solid #414141;
+}
+
+#leaderboard tr:last-child td{
+	border:none;
+}
+
+.bandName{
+	text-align: left;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 20px;
+}
+
+.bandCount{
+	text-align: right;
+	font-size: 15px;
+	font-weight: lighter;
+	padding-right: 20px;
+}
+
+.countNumber{
+	font-size: 18px;
+	font-weight: bold;
+	color: #960c10;
+}
